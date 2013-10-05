@@ -1,0 +1,29 @@
+/*
+Player Properties - Set and store pickups and state of player 
+
+Mario has different states: MarioDead, MarioSmall, MarioLarge, MarioFire													
+
+We need a starting State for mario:
+
+// playerState = PlayerState.MarioSmall;								
+
+Mario will need to do and have the following properties:
+	lives
+	keys (optional)
+	coins
+	projectileFire
+	sockets left / right to shoot fireballs from
+	material/texture swaps for mario (standard and fire)
+	need a change state option and fire option
+
+Ability to set number for coin extra life  
+
+In the update, we need to get the player controls for last movement direction to know which way to shoot the fireballs (left/right socket)
+
+Functions:
+	AddKeys
+	AddCoin
+	SetPlayerState - from enum above
+
+And let's add an AddComponentMenu this time around 
+*/

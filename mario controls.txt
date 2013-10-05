@@ -1,0 +1,38 @@
+/*
+Mario Player Controls
+
+What can Mario do? 
+Idle, Crouch, Walk, Run, Jump, Run Jump, Crouch Jump, Fall
+
+What can Mario interact with?
+blocks   - jump and hit his head with them (head)
+enemy    - jump and land on top of them    (feet)
+teleport - pushing down over a tube sends mario to a different location
+
+How do we control Mario?
+Speed walk  
+Speed run 
+Speed fall 
+Jump  walk 
+Jump  run 
+Jump  crouch 
+gravity
+starting Position
+move Direction
+velocity
+
+Does Mario make sounds or particle effects? 
+Yes - Jump, Hurt, Die, Puff particles
+
+// Description: Provides a 2D character with basic movement (idle, crouch, walk, run, jump (walk, run, crouch), and fall)
+// Designed to quickly get up and going with a super mario bros style control scheme
+// Uses Input and is set for joystick and keyboard (w,a,s,d, arrows, spacebar, control) 
+// Control Scheme: 
+// a or left arrow    - Move Left
+// d or right arrow   - Move Right
+// s or down arrow    - Crouch
+// spacebar           - Standard Jump - 'Jump'  button
+// ctrl + spacebar    - Run Jump      - 'Fire1' button
+// s + spacebar       - Crouch Jump
+// press down on tube - Tube Activate
+*/

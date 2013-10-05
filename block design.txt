@@ -1,0 +1,31 @@
+/*
+Block Component
+Description: Complete system for interactive blocks (bouncing, coins, breakables, solid, and question)
+
+
+BlockType 
+- blockBounce
+- blockCoin
+- blockBreakable
+- blockSolid
+- blockQuestion
+
+PickUpType
+- pickupMushroomGrow
+- pickupMushroomLife
+- pickupFireFlower
+
+BreakType
+- breakableGeometry
+- breakableParticles
+
+Set some variables
+- block coin amount
+- block question scroll speed
+
+material block types (1-4)
+
+need access to each objects prefab transform (coin, grow, life, flower, block, particle)
+
+sound bump and pickup
+

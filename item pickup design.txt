@@ -1,0 +1,39 @@
+/*
+Item Pickup
+
+Description - Set the pickup 'type' and 'value' for an object
+
+This provides the user with the ability to select from a list of pickup types: 
+Mushroom - Grow
+Mushroom - ExtraLife
+Key
+Coin
+Fireball 
+GameTime
+
+Create a pickupType to start with for an enumeration
+Provide a pickup Value (for coins and/or points)
+Provide a particle and sound effect for the item 
+
+Get access through playerProperties for items
+
+playerGameObject - get object with player tag
+hudGameObject 	 - get object with hud tag
+
+In order for the player to find objects we need the objects to check for a Trigger event
+- objects will look for anything tagged - collisionBoxBody
+
+if they find the player, then we need to set the players 
+
+
+Create a few functions to use for the itemPickup
+ApplyPickup ( player status ) - we need to apply the pickup type to the player 
+	 - check for each pickup type and assign it to the correct one
+
+Reuse the PlaySound function for this 
+
+
+Go ahead and add the AddComponentMenu option to the end of the script
+
+
+*/
